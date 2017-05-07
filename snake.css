@@ -1,0 +1,46 @@
+#gameTable{
+    /*  border: 1px solid white;*/
+      width: 400px;
+      height: 400px;
+      border-spacing: 0px;
+}
+
+#gameTable td, #gametable th{
+        border: 1px solid grey;
+/*        overflow: hidden;*/
+}
+
+#gameTable td{
+    height: 20px;
+    overflow: hidden;
+}
+
+#gameTable tr{
+    width: 400px;
+}
+
+#gameTable div{
+    overflow: hidden;
+}
+
+.snakeHead{
+    background-color: limegreen;
+}
+
+.snakeBody{
+    background-color: darkgreen;
+}
+
+.emptyBoard{
+    background-color: #222222;
+}
+
+.apple{
+    background-color: red;
+}
+
+body, a{
+    background-color: #222222;
+    color: grey;
+    
+}
